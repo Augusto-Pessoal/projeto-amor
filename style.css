@@ -1,0 +1,116 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+a{
+    text-decoration: none;
+    color: #000000;
+}
+
+#title{
+    width: 1000px;
+    margin: 100px auto;
+    padding: 10px;
+    border: 1px solid red;
+    text-align: center;
+    font-size: 25px;
+    border: 3px solid black;
+    border-radius: 30px;
+}
+
+#container{
+    margin: 400px auto;
+    width: 1000px;
+    text-align: center;
+    
+}
+
+#sim,
+#nao{
+    display: inline;
+    margin: 0px 100px;
+    padding: 40px 50px;
+    font-size: 50px;
+    font-weight: bold;
+    border: 3px solid black;
+    border-radius: 30px;
+}
+
+#sim:hover{
+    border: 3px solid red;
+    color: red;
+    font-size: 60px;
+}
+
+#nao:hover{
+    cursor: default;
+    border: none;
+    font-size: 0.0000001px;
+}
+
+.container-sim{
+    margin: 15% auto;
+    padding: 10px;
+    width: 1000px;
+    border: 3px solid black;
+    border-radius: 20px;
+    text-align: center;
+}
+
+.title{
+    padding-bottom: 50px;
+}
+
+.text{
+    font-size: 20px;
+    padding-bottom: 10px;
+    text-align: justify;
+}
+
+#button{
+    border: 3px solid #000000;
+    border-radius: 20px;
+    margin: 0px auto;
+    width: 200px;
+    padding: 20px;
+    text-align: center;
+    font-size: 35px;
+    font-weight: bold;   
+    cursor: pointer;
+}
+
+#button:hover{
+    border: 3px solid red;
+    transform: scale(1.1);
+}
+
+#button:hover a{
+    color: red;
+}
+
+@media (max-width:800px) {
+    #title{
+        width: 300px;
+    }
+    #container{
+        width: 300px;
+    }
+    #container-sim{
+        width: 300px;
+    }
+    #sim,
+    #nao{
+        width: 100px;
+        margin: 0px 18%;
+        display: block;
+    }
+
+    #nao{
+        margin-top: 20px;
+    }
+    #eba,
+    .text{
+        overflow: hidden;
+    }
+}
